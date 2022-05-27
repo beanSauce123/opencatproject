@@ -12,9 +12,9 @@ export default function About(){
                 <meshBasicMaterial color="black"/>
                 {"Hello, my name is Ahmed. Welcome"}
             </Text>
-            <Text scale={0.8} position={[0,-0.1,3.6]}>
+            <Text scale={0.8} position={[0.03,-0.2,3.6]}>
                 <meshBasicMaterial color="black"/>
-                {"I'm currently an undergrad. Last year, I developed an interest in 3D front-end dev and took\n\na gap year to create a portfolio. At the end, I realized that I wanted to pursue a career in medicine.\n\nMy goal is to use the 3D dev skills I learned to create a study resource for the MCAT and\n\ngeneral study. The aim is not to create cluttered, elaborate visuals that distract from the main point -\n\nrather, I will keep it simple and clear. New content will be posted on a weekly basis, and I hope to add\n\na search/filter system once more content is up. I hope this proves to be a helpful resource."}
+                {"I'm currently an undergrad. I developed an interest in 3D front-end dev with ThreeJS, React, and Blender,\n\nso I took a gap year to create a portfolio. At the end, I realized that I wanted to pursue a career in medicine\n\n(quite the plot twist, isn't it?). My goal is to use the 3D dev skills I learned to create the first comprehensive,\n\nstudent-led, (and most importantly) free resource for the MCAT and general study. The aim is not to create\n\ncluttered, elaborate visuals that distract from the main point - rather, I will keep it simple and clear. New content\n\nwill be posted on a weekly basis, and I hope to add a search/filter system once more content is up. I hope this\n\nproves to be a helpful resource."}
             </Text>
         </Suspense>
     </Canvas>
